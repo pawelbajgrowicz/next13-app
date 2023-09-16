@@ -1,4 +1,4 @@
 interface Image {
-  url: string;
-  alt: string
+	src: string;
+	alt: string;
 }
