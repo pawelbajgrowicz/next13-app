@@ -8,9 +8,9 @@ const Products = () => {
 	})) as Product[];
 
 	return (
-		<div className="bg-white">
+		<section className="bg-white">
 			<ProductList products={products} />
-		</div>
+		</section>
 	);
 };
 

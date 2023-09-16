@@ -13,9 +13,11 @@ export const ProductListItem = ({
 	},
 }: PropTypes) => {
 	return (
-		<div className="group relative">
-			<ProductCoverImage src={src} alt={alt} />
-			<ProductListItemDescription name={name} price={price} />
-		</div>
+		<li className="group relative">
+			<article>
+				<ProductCoverImage src={src} alt={alt} />
+				<ProductListItemDescription name={name} price={price} />
+			</article>
+		</li>
 	);
 };

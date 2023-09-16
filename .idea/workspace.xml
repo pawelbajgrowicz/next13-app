@@ -7,8 +7,8 @@
     <list default="true" id="9fe5b142-36bd-448d-8511-e9c59d6d2023" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/products/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/products/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/atoms/ProductCoverImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/atoms/ProductCoverImage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/molecules/ProductListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/molecules/ProductListItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/organisms/ProductList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/organisms/ProductList.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
       <workItem from="1694803840153" duration="2525000" />
       <workItem from="1694807163992" duration="1972000" />
       <workItem from="1694858343691" duration="1409000" />
-      <workItem from="1694863342400" duration="3290000" />
+      <workItem from="1694863342400" duration="3378000" />
     </task>
     <servers />
   </component>
