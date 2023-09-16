@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe5b142-36bd-448d-8511-e9c59d6d2023" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/atoms/ProductCoverImage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,13 +34,16 @@
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "//wsl$/Ubuntu/home/pawel/next-masters/kurs",
+    "last_opened_file_path": "//wsl$/Ubuntu/home/pawel/next-masters/next13masters-e2e-tests",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "prettierjs.PrettierConfiguration.Package": "\\\\wsl$\\Ubuntu\\home\\pawel\\next-masters\\kurs\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
     "ts.external.directory.path": "\\\\wsl$\\Ubuntu\\home\\pawel\\next-masters\\kurs\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -59,7 +62,9 @@
       <option name="presentableId" value="Default" />
       <updated>1693854950582</updated>
       <workItem from="1693854951867" duration="1172000" />
-      <workItem from="1694803840153" duration="1537000" />
+      <workItem from="1694803840153" duration="2525000" />
+      <workItem from="1694807163992" duration="1972000" />
+      <workItem from="1694858343691" duration="1409000" />
     </task>
     <servers />
   </component>
