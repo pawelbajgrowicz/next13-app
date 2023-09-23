@@ -7,7 +7,7 @@ export const Breadcrumbs = <T extends string>({
 	items?: { link: Route<T>; name: string }[];
 }) => {
 	return (
-		<nav className="flex">
+		<nav className="flex" aria-label="Breadcrumb">
 			<ol role="list" className="flex items-center">
 				<li className="text-left">
 					<div className="-m-1">

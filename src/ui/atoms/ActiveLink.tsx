@@ -28,11 +28,12 @@ export const ActiveLink = <T extends string>({
 	const pathname = usePathname();
 	const statusClasses = isActive() ? activeClassName : "";
 	return (
-		<li
-			className={cn(className, statusClasses, "p-0")}
-			aria-current={pathname}
-		>
-			<Link {...props} href={href}>
+		<li className={cn(className, statusClasses, "p-0")}>
+			<Link
+				{...props}
+				href={href}
+				{...(isActive() ? { "aria-current": "page" } : {})}
+			>
 				<NavigationMenuLink>
 					<div className="px-4 py-2 text-sm font-medium leading-none ">
 						{title}
