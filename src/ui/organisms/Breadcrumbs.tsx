@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Route } from "next";
+import { type Route } from "next";
 
 export const Breadcrumbs = <T extends string>({
 	items = [],

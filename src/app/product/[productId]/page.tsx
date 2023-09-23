@@ -1,6 +1,6 @@
+import { type Metadata } from "next";
 import { SingleProduct } from "@/ui/organisms/SingleProduct";
 import { Breadcrumbs } from "@/ui/organisms/Breadcrumbs";
-import { Metadata } from "next";
 
 export async function generateStaticParams() {
 	const res = await fetch(

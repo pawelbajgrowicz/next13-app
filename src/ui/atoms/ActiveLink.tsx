@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { type Route } from "next";
 import { NavigationMenuLink } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
-import { Route } from "next";
 
 export const ActiveLink = <T extends string>({
 	className,
