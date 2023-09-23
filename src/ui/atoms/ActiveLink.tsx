@@ -4,7 +4,7 @@ import { NavigationMenuLink } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
 import { Route } from "next";
 
-export const ActiveLink = ({
+export const ActiveLink = <T extends string>({
 	className,
 	activeClassName,
 	title,
@@ -16,7 +16,7 @@ export const ActiveLink = ({
 	className: string;
 	activeClassName: string;
 	exact?: boolean;
-	href: Route;
+	href: Route<T>;
 }) => {
 	function isActive(): boolean {
 		if (exact) {

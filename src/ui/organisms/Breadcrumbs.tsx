@@ -1,10 +1,10 @@
 import Link from "next/link";
 import { Route } from "next";
 
-export const Breadcrumbs = ({
+export const Breadcrumbs = <T extends string>({
 	items = [],
 }: {
-	items?: { link: Route; name: string }[];
+	items?: { link: Route<T>; name: string }[];
 }) => {
 	return (
 		<nav className="flex">
