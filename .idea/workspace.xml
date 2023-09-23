@@ -5,9 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe5b142-36bd-448d-8511-e9c59d6d2023" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/product/[productId]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/products/[offset]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/svg/star-empty-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/svg/star-full-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/atoms/ActiveLink.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/organisms/Breadcrumbs.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/organisms/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/organisms/Pagination.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/organisms/SingleProduct.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/products/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/products/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/product.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/product.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/atoms/ProductListItemDescription.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/atoms/ProductListItemDescription.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/molecules/ProductListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/molecules/ProductListItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/organisms/ProductList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/organisms/ProductList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +52,7 @@
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/User/kursy/next13-app/app",
+    "last_opened_file_path": "C:/Users/User/kursy/next13-app/src/app/products/[pagination]",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -45,16 +61,20 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "\\\\wsl$\\Ubuntu\\home\\pawel\\next-masters\\kurs\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "editing.templates",
+    "settings.editor.selected.configurable": "settings.javascript.linters.tslint",
     "ts.external.directory.path": "C:\\Users\\User\\kursy\\next13-app\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\kursy\next13-app\src\app\products\[pagination]" />
+      <recent name="C:\Users\User\kursy\next13-app\src\ui\organisms" />
+      <recent name="C:\Users\User\kursy\next13-app\src\svg" />
       <recent name="C:\Users\User\kursy\next13-app\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\kursy\next13-app\src\app\product" />
       <recent name="C:\Users\User\kursy\next13-app\src" />
       <recent name="\\wsl$\Ubuntu\home\pawel\next-masters\kurs\src" />
     </key>
@@ -76,7 +96,7 @@
       <workItem from="1694858343691" duration="1409000" />
       <workItem from="1694863342400" duration="5177000" />
       <workItem from="1695012933960" duration="264000" />
-      <workItem from="1695466465412" duration="505000" />
+      <workItem from="1695466465412" duration="8425000" />
     </task>
     <servers />
   </component>

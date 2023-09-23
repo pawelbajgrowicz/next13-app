@@ -1,12 +1,25 @@
-export const ProductListItemDescription = ({ name, price }: { name: string; price: number }) => {
+import Link from "next/link";
+
+export const ProductListItemDescription = ({
+	title,
+	price,
+	id,
+}: {
+	title: string;
+	price: number;
+	id: string;
+}) => {
 	return (
 		<div className="mt-4 flex justify-between">
 			<div>
 				<h3 className="text-sm text-gray-700">
-					<a href="#">
-						<span aria-hidden="true" className="absolute inset-0"></span>
-						{name}
-					</a>
+					<Link href={`/product/${id}`}>
+						<span
+							aria-hidden="true"
+							className="absolute inset-0"
+						></span>
+						{title}
+					</Link>
 				</h3>
 			</div>
 			<p className="text-sm font-medium text-gray-900">{price} zł</p>

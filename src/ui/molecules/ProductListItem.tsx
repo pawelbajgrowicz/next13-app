@@ -6,17 +6,17 @@ interface PropTypes {
 }
 
 export const ProductListItem = ({
-	product: {
-		image: { src, alt },
-		name,
-		price,
-	},
+	product: { image, title, price, id },
 }: PropTypes) => {
 	return (
 		<li className="group relative">
 			<article>
-				<ProductCoverImage src={src} alt={alt} />
-				<ProductListItemDescription name={name} price={price} />
+				<ProductCoverImage src={image} alt={title} />
+				<ProductListItemDescription
+					title={title}
+					price={price}
+					id={id}
+				/>
 			</article>
 		</li>
 	);

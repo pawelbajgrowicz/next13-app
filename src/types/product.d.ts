@@ -1,6 +1,13 @@
 interface Product {
-	image: Image;
-	name: string;
+	id: string;
+	title: string;
 	price: number;
-	slug: string;
+	description: string;
+	category: string;
+	rating: {
+		rate: number;
+		count: number;
+	};
+	image: string;
+	longDescription: string;
 }
